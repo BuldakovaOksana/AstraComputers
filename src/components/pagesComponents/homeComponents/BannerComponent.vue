@@ -1,6 +1,6 @@
 <template>
     <section class="banner center">
-        <h1 class="banner__title">Сервера российского производства
+        <h1 class="banner__title">Сервера российского производства <br>
             Поставка, монтаж серверного и телекоммуникационного оборудования
         </h1>
         <img class="banner__img" src="@/assets/img/bannerImg.png" alt="banner">

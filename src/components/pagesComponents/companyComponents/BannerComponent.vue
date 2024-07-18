@@ -1,7 +1,7 @@
 <template>
     <section class="banner center">
         <h1 class="banner__title"> <span>ASTRO</span>Computers</h1>
-        <p class="banner__text">ТЕХНАЛОГИИ ЦИФРОВЫХ ВЫЧИСЛИТЕЛЬНЫХ СИСТЕМ</p>
+        <p class="banner__text">ТЕХНОЛОГИИ ЦИФРОВЫХ ВЫЧИСЛИТЕЛЬНЫХ СИСТЕМ</p>
         <div class="banner__line"></div>
     </section>
 </template>
