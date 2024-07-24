@@ -29,12 +29,12 @@ export default {
 
     &__title {
         & span {
-            color: $colorfone;
+            color: $colorTitles;
             font-size: 50px;
             font-weight: 600;
             letter-spacing: 2px;
         }
-        color: $colorfone;
+        color: $colorTitles;
         text-align: left;
         line-height: 1.5;
         font-size: 45px;
@@ -43,7 +43,7 @@ export default {
     }
 
     &__text {
-        color: $colorTitlesWhite;
+        color: $colorTitles;
         text-align: left;
         font-size: 20px;
         font-weight: 400;

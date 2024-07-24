@@ -60,7 +60,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e8f2f9;
+    background-color: #1f2738;
 }
 
 .contact {

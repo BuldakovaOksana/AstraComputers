@@ -53,7 +53,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+@import "@/style/vars.scss";
 .corousel {
+    background-color: #193062;
     margin-top: 50px;
     &__img {
         max-width: 150px;

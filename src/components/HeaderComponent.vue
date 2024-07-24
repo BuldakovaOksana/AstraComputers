@@ -1,7 +1,8 @@
 <template>
   <header class="header center">
     <router-link class="header__logo" to="/">
-      <img class="header__logo__img" src="@/assets/img/logo.png" alt="logo" />
+      <img class="header__logo__img" src="@/assets/img/astro-logo-96x103.png" alt="logo" />
+      <h1 class="header__logo__text"> <span>ASTRO</span> <br> COMPUTERS</h1>
     </router-link>
 
     <nav>
@@ -32,8 +33,8 @@ export default {};
 
 .header {
   margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,9 +43,25 @@ export default {};
 
   &__logo {
     display: block;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 
     &__img {
       max-width: 250px;
+    }
+    &__text {
+      text-align: center;
+      line-height: 1.2;
+      font-size: 30px;
+      font-weight: 400;
+      color: $colorTitles;
+      letter-spacing: 2px;
+      & span {
+        font-weight: 800;
+        font-size: 48px;
+        letter-spacing: 5px
+      }
     }
   }
 
@@ -64,8 +81,8 @@ export default {};
       color: $colorTitles;
 
       &:hover {
-        color: $colorTitlesblue;
-        text-shadow: 0.5px 0.5px #c2c4c7;
+        color: $colorText;
+        text-shadow: 0.1px 0.1px $colorText;
 
       }
     }

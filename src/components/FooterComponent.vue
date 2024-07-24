@@ -1,8 +1,8 @@
 <template>
     <footer class="footer center">
-        <a href="#" class="footer__logo">
+        <!-- <a href="#" class="footer__logo">
             <img class="footer__logo__img" src="@/assets/img/logo.png" alt="logo">
-        </a>
+        </a> -->
         <nav>
             <ul class="footer__nav">
                 <li class="footer__nav__li">
@@ -53,13 +53,14 @@ export default {
 @import "@/style/vars.scss";
 
 .footer {
-    padding: 20px;
+    padding: 10px;
     border-top: 1px solid $colorTitles;
     border-bottom: 1px solid $colorTitles;
     margin-top: 50px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 
     &__logo__img {
         max-width: 200px;
@@ -67,11 +68,9 @@ export default {
 
     &__nav {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 20px;
+        justify-content: space-evenly;
         list-style-type: none;
-        flex-direction: column;
+        
 
         &__li a {
             font-style: normal;
@@ -82,22 +81,28 @@ export default {
 
             &:hover {
                 color: $colorTitles;
-                text-shadow: 0.5px 0.5px #c2c4c7;
+                text-shadow: 0.1px 0.1px $colorTitles;
             }
         }
     }
 
     &__contact {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
-
+        justify-content: center;
+        gap: 80px;
+        margin-top: 20px;
+        &__data {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         &__title {
             font-style: normal;
             line-height: 1.5;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
-            color: $colorTitles;
+            color: $colorText;
         }
 
         &__text {

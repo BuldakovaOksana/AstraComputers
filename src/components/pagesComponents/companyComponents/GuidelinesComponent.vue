@@ -21,13 +21,13 @@
                     <li>
                         Коммутаторы и маршрутизаторы;
                     </li>
-                    <li>
+                    <!-- <li>
                         Дисковые полки расширения;
                     </li>
                     <li>
                         Любое телекоммуникационное
                         оборудование
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="guidelines__item">
@@ -101,7 +101,12 @@ export default {
 .guidelines {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: $colorTitlesblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid $colorTitlesblue;
+        border-radius: 20px;
+    // background-color: $colorTitlesblue;
+    
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -120,7 +125,10 @@ export default {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        gap: 10px;
+        gap: 30px;
+        border: 1px solid $colorTitlesblue;
+        border-radius: 20px;
+        padding: 25px;
     }
 
     &__item {
